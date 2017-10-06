@@ -9,9 +9,8 @@ X-Python-Version: >= 2.6
 Package: krop
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}, python-poppler-qt4 | python3-poppler-qt4, python-pypdf2 | python-pypdf | python3-pypdf2
-Description: A tool to crop PDF files
- .
- krop is a simple graphical tool to crop the pages of PDF files. It is written
+Description: Tool to crop PDF files
+ This is a simple graphical tool to crop the pages of PDF files. It is written
  in Python and relies on PyQT, python-poppler-qt4 and pyPDF for its
  functionality.
  .
@@ -19,4 +18,4 @@ Description: A tool to crop PDF files
  pages into subpages to fit the limited screen size of devices such as
  eReaders. This is particularly useful, if your eReader does not support
  convenient scrolling.
- .
+ 
